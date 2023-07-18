@@ -3,6 +3,7 @@
 
 pragma solidity ^0.8.19;
 
+import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 import {ERC20} from "../ERC20.sol";
 import {Context} from "../../../utils/Context.sol";
 
