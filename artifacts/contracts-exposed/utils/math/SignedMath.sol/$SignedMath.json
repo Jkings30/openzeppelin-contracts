@@ -1,0 +1,124 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "$SignedMath",
+  "sourceName": "contracts-exposed/utils/math/SignedMath.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "payable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "n",
+          "type": "int256"
+        }
+      ],
+      "name": "$abs",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "ret0",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "a",
+          "type": "int256"
+        },
+        {
+          "internalType": "int256",
+          "name": "b",
+          "type": "int256"
+        }
+      ],
+      "name": "$average",
+      "outputs": [
+        {
+          "internalType": "int256",
+          "name": "ret0",
+          "type": "int256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "a",
+          "type": "int256"
+        },
+        {
+          "internalType": "int256",
+          "name": "b",
+          "type": "int256"
+        }
+      ],
+      "name": "$max",
+      "outputs": [
+        {
+          "internalType": "int256",
+          "name": "ret0",
+          "type": "int256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "a",
+          "type": "int256"
+        },
+        {
+          "internalType": "int256",
+          "name": "b",
+          "type": "int256"
+        }
+      ],
+      "name": "$min",
+      "outputs": [
+        {
+          "internalType": "int256",
+          "name": "ret0",
+          "type": "int256"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "__hh_exposed_bytecode_marker",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "stateMutability": "payable",
+      "type": "receive"
+    }
+  ],
+  "bytecode": "0x6080604052610249806100115f395ff3fe60806040526004361061004c575f3560e01c80631f116e0014610057578063342db739146100885780633f07e553146100ad578063d0d65cde146100cc578063e6cd311b146100eb575f80fd5b3661005357005b5f80fd5b348015610062575f80fd5b506100766100713660046101a9565b61010a565b60405190815260200160405180910390f35b348015610093575f80fd5b506100766e1a185c991a185d0b595e1c1bdcd959608a1b81565b3480156100b8575f80fd5b506100766100c73660046101a9565b61011c565b3480156100d7575f80fd5b506100766100e63660046101a9565b610127565b3480156100f6575f80fd5b506100766101053660046101c9565b610132565b5f6101158383610142565b9392505050565b5f6101158383610157565b5f6101158383610165565b5f61013c82610194565b92915050565b5f8183126101505781610115565b5090919050565b5f8183136101505781610115565b5f8061017884841860011d8585166101e0565b905061018c60ff82901c85851816826101e0565b949350505050565b5f808212156101a557815f0361013c565b5090565b5f80604083850312156101ba575f80fd5b50508035926020909101359150565b5f602082840312156101d9575f80fd5b5035919050565b8082018281125f83128015821682158216171561020b57634e487b7160e01b5f52601160045260245ffd5b50509291505056fea264697066735822122021947e101d91d2fad36976eee7e4583035ded42f958ad40a909810695ec00c9e64736f6c63430008140033",
+  "deployedBytecode": "0x60806040526004361061004c575f3560e01c80631f116e0014610057578063342db739146100885780633f07e553146100ad578063d0d65cde146100cc578063e6cd311b146100eb575f80fd5b3661005357005b5f80fd5b348015610062575f80fd5b506100766100713660046101a9565b61010a565b60405190815260200160405180910390f35b348015610093575f80fd5b506100766e1a185c991a185d0b595e1c1bdcd959608a1b81565b3480156100b8575f80fd5b506100766100c73660046101a9565b61011c565b3480156100d7575f80fd5b506100766100e63660046101a9565b610127565b3480156100f6575f80fd5b506100766101053660046101c9565b610132565b5f6101158383610142565b9392505050565b5f6101158383610157565b5f6101158383610165565b5f61013c82610194565b92915050565b5f8183126101505781610115565b5090919050565b5f8183136101505781610115565b5f8061017884841860011d8585166101e0565b905061018c60ff82901c85851816826101e0565b949350505050565b5f808212156101a557815f0361013c565b5090565b5f80604083850312156101ba575f80fd5b50508035926020909101359150565b5f602082840312156101d9575f80fd5b5035919050565b8082018281125f83128015821682158216171561020b57634e487b7160e01b5f52601160045260245ffd5b50509291505056fea264697066735822122021947e101d91d2fad36976eee7e4583035ded42f958ad40a909810695ec00c9e64736f6c63430008140033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

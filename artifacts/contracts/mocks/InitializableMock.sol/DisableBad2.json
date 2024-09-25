@@ -1,0 +1,39 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "DisableBad2",
+  "sourceName": "contracts/mocks/InitializableMock.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "AlreadyInitialized",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "NotInitializing",
+      "type": "error"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "uint8",
+          "name": "version",
+          "type": "uint8"
+        }
+      ],
+      "name": "Initialized",
+      "type": "event"
+    }
+  ],
+  "bytecode": "0x608060405234801561000f575f80fd5b505f54610100900460ff161580801561002e57505f54600160ff909116105b15801561004b5750303b15801561004957505f5460ff166001145b155b156100685760405162dc149f60e41b815260040160405180910390fd5b5f805460ff191660011790558015610089575f805461ff0019166101001790555b6100916100c9565b80156100c3575f805461ff0019169055604051600181525f805160206101788339815191529060200160405180910390a15b5061012e565b5f54610100900460ff16156100f05760405162dc149f60e41b815260040160405180910390fd5b5f5460ff9081161461012c575f805460ff191660ff9081179091556040519081525f805160206101788339815191529060200160405180910390a15b565b603e8061013a5f395ff3fe60806040525f80fdfea26469706673582212200dfe813f1de76d77e029e00978b6865e06511706bdff8536d5bec5a1bcc1192764736f6c634300081400337f26b83ff96e1f2b6a682f133852f6798a09c465da95921460cefb3847402498",
+  "deployedBytecode": "0x60806040525f80fdfea26469706673582212200dfe813f1de76d77e029e00978b6865e06511706bdff8536d5bec5a1bcc1192764736f6c63430008140033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

@@ -1,0 +1,78 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "$IERC1967",
+  "sourceName": "contracts-exposed/interfaces/IERC1967.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "payable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "previousAdmin",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "newAdmin",
+          "type": "address"
+        }
+      ],
+      "name": "AdminChanged",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "beacon",
+          "type": "address"
+        }
+      ],
+      "name": "BeaconUpgraded",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "implementation",
+          "type": "address"
+        }
+      ],
+      "name": "Upgraded",
+      "type": "event"
+    },
+    {
+      "inputs": [],
+      "name": "__hh_exposed_bytecode_marker",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "stateMutability": "payable",
+      "type": "receive"
+    }
+  ],
+  "bytecode": "0x6080604052609380600f5f395ff3fe608060405260043610601e575f3560e01c8063342db739146028575f80fd5b36602457005b5f80fd5b3480156032575f80fd5b50604b6e1a185c991a185d0b595e1c1bdcd959608a1b81565b60405190815260200160405180910390f3fea26469706673582212203a09706133ad106a5f01086a2cf1ef173566b384dcee4c9644a9b709716e03be64736f6c63430008140033",
+  "deployedBytecode": "0x608060405260043610601e575f3560e01c8063342db739146028575f80fd5b36602457005b5f80fd5b3480156032575f80fd5b50604b6e1a185c991a185d0b595e1c1bdcd959608a1b81565b60405190815260200160405180910390f3fea26469706673582212203a09706133ad106a5f01086a2cf1ef173566b384dcee4c9644a9b709716e03be64736f6c63430008140033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

@@ -1,0 +1,160 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "$Clones",
+  "sourceName": "contracts-exposed/proxy/Clones.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "payable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "ERC1167FailedCreateClone",
+      "type": "error"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "instance",
+          "type": "address"
+        }
+      ],
+      "name": "return$clone",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "instance",
+          "type": "address"
+        }
+      ],
+      "name": "return$cloneDeterministic",
+      "type": "event"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "implementation",
+          "type": "address"
+        }
+      ],
+      "name": "$clone",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "instance",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "implementation",
+          "type": "address"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "salt",
+          "type": "bytes32"
+        }
+      ],
+      "name": "$cloneDeterministic",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "instance",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "implementation",
+          "type": "address"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "salt",
+          "type": "bytes32"
+        }
+      ],
+      "name": "$predictDeterministicAddress",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "predicted",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "implementation",
+          "type": "address"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "salt",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "address",
+          "name": "deployer",
+          "type": "address"
+        }
+      ],
+      "name": "$predictDeterministicAddress",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "predicted",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "__hh_exposed_bytecode_marker",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "stateMutability": "payable",
+      "type": "receive"
+    }
+  ],
+  "bytecode": "0x60806040526103dd806100115f395ff3fe60806040526004361061004c575f3560e01c8063110899ae146100575780632dac34cb14610093578063342db739146100b257806376b4a7b4146100e55780637b53dbd1146100f8575f80fd5b3661005357005b5f80fd5b348015610062575f80fd5b5061007661007136600461032d565b61010b565b6040516001600160a01b0390911681526020015b60405180910390f35b34801561009e575f80fd5b506100766100ad366004610355565b61011d565b3480156100bd575f80fd5b506100d76e1a185c991a185d0b595e1c1bdcd959608a1b81565b60405190815260200161008a565b6100766100f336600461038e565b610131565b61007661010636600461032d565b61017f565b5f61011683836101cf565b9392505050565b5f6101298484846101e1565b949350505050565b5f61013b8261023d565b6040516001600160a01b03821681529091507f8d3bbaa63f963c2d0ff71d9b230f7e4930e985b7dc1ec66533b24eab97f05f1c9060200160405180910390a1919050565b5f61018a83836102ac565b6040516001600160a01b03821681529091507ffb89a81414cb9be4be9d6970063a0c6ec35d4b999c01635f31474cc8143824339060200160405180910390a192915050565b5f6101168383306101e1565b92915050565b60405160388101919091526f5af43d82803e903d91602b57fd5bf3ff60248201526014810192909252733d602d80600a3d3981f3363d3d373d3d3d363d73825260588201526037600c8201206078820152605560439091012090565b5f763d602d80600a3d3981f3363d3d373d3d3d363d730000008260601b60e81c175f526e5af43d82803e903d91602b57fd5bf38260781b17602052603760095ff090506001600160a01b0381166102a7576040516330be1a3d60e21b815260040160405180910390fd5b919050565b5f763d602d80600a3d3981f3363d3d373d3d3d363d730000008360601b60e81c175f526e5af43d82803e903d91602b57fd5bf38360781b1760205281603760095ff590506001600160a01b0381166101db576040516330be1a3d60e21b815260040160405180910390fd5b80356001600160a01b03811681146102a7575f80fd5b5f806040838503121561033e575f80fd5b61034783610317565b946020939093013593505050565b5f805f60608486031215610367575f80fd5b61037084610317565b92506020840135915061038560408501610317565b90509250925092565b5f6020828403121561039e575f80fd5b6101168261031756fea2646970667358221220444821fd68b547091a5e923d9162f2b3ed312a721e6e17fa06e3220f28fd340164736f6c63430008140033",
+  "deployedBytecode": "0x60806040526004361061004c575f3560e01c8063110899ae146100575780632dac34cb14610093578063342db739146100b257806376b4a7b4146100e55780637b53dbd1146100f8575f80fd5b3661005357005b5f80fd5b348015610062575f80fd5b5061007661007136600461032d565b61010b565b6040516001600160a01b0390911681526020015b60405180910390f35b34801561009e575f80fd5b506100766100ad366004610355565b61011d565b3480156100bd575f80fd5b506100d76e1a185c991a185d0b595e1c1bdcd959608a1b81565b60405190815260200161008a565b6100766100f336600461038e565b610131565b61007661010636600461032d565b61017f565b5f61011683836101cf565b9392505050565b5f6101298484846101e1565b949350505050565b5f61013b8261023d565b6040516001600160a01b03821681529091507f8d3bbaa63f963c2d0ff71d9b230f7e4930e985b7dc1ec66533b24eab97f05f1c9060200160405180910390a1919050565b5f61018a83836102ac565b6040516001600160a01b03821681529091507ffb89a81414cb9be4be9d6970063a0c6ec35d4b999c01635f31474cc8143824339060200160405180910390a192915050565b5f6101168383306101e1565b92915050565b60405160388101919091526f5af43d82803e903d91602b57fd5bf3ff60248201526014810192909252733d602d80600a3d3981f3363d3d373d3d3d363d73825260588201526037600c8201206078820152605560439091012090565b5f763d602d80600a3d3981f3363d3d373d3d3d363d730000008260601b60e81c175f526e5af43d82803e903d91602b57fd5bf38260781b17602052603760095ff090506001600160a01b0381166102a7576040516330be1a3d60e21b815260040160405180910390fd5b919050565b5f763d602d80600a3d3981f3363d3d373d3d3d363d730000008360601b60e81c175f526e5af43d82803e903d91602b57fd5bf38360781b1760205281603760095ff590506001600160a01b0381166101db576040516330be1a3d60e21b815260040160405180910390fd5b80356001600160a01b03811681146102a7575f80fd5b5f806040838503121561033e575f80fd5b61034783610317565b946020939093013593505050565b5f805f60608486031215610367575f80fd5b61037084610317565b92506020840135915061038560408501610317565b90509250925092565b5f6020828403121561039e575f80fd5b6101168261031756fea2646970667358221220444821fd68b547091a5e923d9162f2b3ed312a721e6e17fa06e3220f28fd340164736f6c63430008140033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

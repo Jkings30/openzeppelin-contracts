@@ -1,0 +1,139 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "$Implementation4",
+  "sourceName": "contracts-exposed/mocks/RegressionImplementation.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "payable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "AlreadyInitialized",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "NotInitializing",
+      "type": "error"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "uint8",
+          "name": "version",
+          "type": "uint8"
+        }
+      ],
+      "name": "Initialized",
+      "type": "event"
+    },
+    {
+      "stateMutability": "nonpayable",
+      "type": "fallback"
+    },
+    {
+      "inputs": [],
+      "name": "$_disableInitializers",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "$_getInitializedVersion",
+      "outputs": [
+        {
+          "internalType": "uint8",
+          "name": "ret0",
+          "type": "uint8"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "$_isInitializing",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "ret0",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "$_value",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "__hh_exposed_bytecode_marker",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getValue",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "initialize",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_number",
+          "type": "uint256"
+        }
+      ],
+      "name": "setValue",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "stateMutability": "payable",
+      "type": "receive"
+    }
+  ],
+  "bytecode": "0x60806040526102fe806100115f395ff3fe60806040526004361061007e575f3560e01c806377f9d7c01161004d57806377f9d7c0146100985780638129fc1c14610121578063c9eb057114610135578063f5f1bec01461015b57610085565b80632096525514610098578063342db739146100bb5780634fd5303d146100e0578063552410771461010057610085565b3661008557005b348015610090575f80fd5b506001808055005b3480156100a3575f80fd5b506001545b6040519081526020015b60405180910390f35b3480156100c6575f80fd5b506100a86e1a185c991a185d0b595e1c1bdcd959608a1b81565b3480156100eb575f80fd5b505f5460405160ff90911681526020016100b2565b34801561010b575f80fd5b5061011f61011a3660046102b1565b600155565b005b34801561012c575f80fd5b5061011f61016f565b348015610140575f80fd5b505f54610100900460ff1660405190151581526020016100b2565b348015610166575f80fd5b5061011f610230565b5f54610100900460ff161580801561018d57505f54600160ff909116105b1580156101aa5750303b1580156101a857505f5460ff166001145b155b156101c75760405162dc149f60e41b815260040160405180910390fd5b5f805460ff1916600117905580156101e8575f805461ff0019166101001790555b801561022d575f805461ff0019169055604051600181527f7f26b83ff96e1f2b6a682f133852f6798a09c465da95921460cefb38474024989060200160405180910390a15b50565b61023861023a565b565b5f54610100900460ff16156102615760405162dc149f60e41b815260040160405180910390fd5b5f5460ff90811614610238575f805460ff191660ff9081179091556040519081527f7f26b83ff96e1f2b6a682f133852f6798a09c465da95921460cefb38474024989060200160405180910390a1565b5f602082840312156102c1575f80fd5b503591905056fea2646970667358221220916ba77059a842dac3ca0d0ded3f533bf0971c1a08db4d6078308a7e9cd58f4064736f6c63430008140033",
+  "deployedBytecode": "0x60806040526004361061007e575f3560e01c806377f9d7c01161004d57806377f9d7c0146100985780638129fc1c14610121578063c9eb057114610135578063f5f1bec01461015b57610085565b80632096525514610098578063342db739146100bb5780634fd5303d146100e0578063552410771461010057610085565b3661008557005b348015610090575f80fd5b506001808055005b3480156100a3575f80fd5b506001545b6040519081526020015b60405180910390f35b3480156100c6575f80fd5b506100a86e1a185c991a185d0b595e1c1bdcd959608a1b81565b3480156100eb575f80fd5b505f5460405160ff90911681526020016100b2565b34801561010b575f80fd5b5061011f61011a3660046102b1565b600155565b005b34801561012c575f80fd5b5061011f61016f565b348015610140575f80fd5b505f54610100900460ff1660405190151581526020016100b2565b348015610166575f80fd5b5061011f610230565b5f54610100900460ff161580801561018d57505f54600160ff909116105b1580156101aa5750303b1580156101a857505f5460ff166001145b155b156101c75760405162dc149f60e41b815260040160405180910390fd5b5f805460ff1916600117905580156101e8575f805461ff0019166101001790555b801561022d575f805461ff0019169055604051600181527f7f26b83ff96e1f2b6a682f133852f6798a09c465da95921460cefb38474024989060200160405180910390a15b50565b61023861023a565b565b5f54610100900460ff16156102615760405162dc149f60e41b815260040160405180910390fd5b5f5460ff90811614610238575f805460ff191660ff9081179091556040519081527f7f26b83ff96e1f2b6a682f133852f6798a09c465da95921460cefb38474024989060200160405180910390a1565b5f602082840312156102c1575f80fd5b503591905056fea2646970667358221220916ba77059a842dac3ca0d0ded3f533bf0971c1a08db4d6078308a7e9cd58f4064736f6c63430008140033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

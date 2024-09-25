@@ -1,0 +1,115 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "$MigratableMockV1",
+  "sourceName": "contracts-exposed/mocks/SingleInheritanceInitializableMocks.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "payable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "AlreadyInitialized",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "NotInitializing",
+      "type": "error"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "uint8",
+          "name": "version",
+          "type": "uint8"
+        }
+      ],
+      "name": "Initialized",
+      "type": "event"
+    },
+    {
+      "inputs": [],
+      "name": "$_disableInitializers",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "$_getInitializedVersion",
+      "outputs": [
+        {
+          "internalType": "uint8",
+          "name": "ret0",
+          "type": "uint8"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "$_isInitializing",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "ret0",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "__hh_exposed_bytecode_marker",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "initialize",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "x",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "stateMutability": "payable",
+      "type": "receive"
+    }
+  ],
+  "bytecode": "0x60806040526102b3806100115f395ff3fe608060405260043610610057575f3560e01c80630c55699c14610062578063342db7391461008a5780634fd5303d146100af578063c9eb0571146100cf578063f5f1bec0146100f5578063fe4b84df1461010b575f80fd5b3661005e57005b5f80fd5b34801561006d575f80fd5b5061007760015481565b6040519081526020015b60405180910390f35b348015610095575f80fd5b506100776e1a185c991a185d0b595e1c1bdcd959608a1b81565b3480156100ba575f80fd5b505f5460405160ff9091168152602001610081565b3480156100da575f80fd5b505f54610100900460ff166040519015158152602001610081565b348015610100575f80fd5b5061010961011e565b005b610109610119366004610266565b610128565b6101266101ef565b565b5f54610100900460ff161580801561014657505f54600160ff909116105b1580156101635750303b15801561016157505f5460ff166001145b155b156101805760405162dc149f60e41b815260040160405180910390fd5b5f805460ff1916600117905580156101a1575f805461ff0019166101001790555b600182905580156101eb575f805461ff0019169055604051600181527f7f26b83ff96e1f2b6a682f133852f6798a09c465da95921460cefb38474024989060200160405180910390a15b5050565b5f54610100900460ff16156102165760405162dc149f60e41b815260040160405180910390fd5b5f5460ff90811614610126575f805460ff191660ff9081179091556040519081527f7f26b83ff96e1f2b6a682f133852f6798a09c465da95921460cefb38474024989060200160405180910390a1565b5f60208284031215610276575f80fd5b503591905056fea26469706673582212209168f1bd533a5bda58f77c6dc7b1f260f9aa7053bb397bcb3f0e0484f39b4e2a64736f6c63430008140033",
+  "deployedBytecode": "0x608060405260043610610057575f3560e01c80630c55699c14610062578063342db7391461008a5780634fd5303d146100af578063c9eb0571146100cf578063f5f1bec0146100f5578063fe4b84df1461010b575f80fd5b3661005e57005b5f80fd5b34801561006d575f80fd5b5061007760015481565b6040519081526020015b60405180910390f35b348015610095575f80fd5b506100776e1a185c991a185d0b595e1c1bdcd959608a1b81565b3480156100ba575f80fd5b505f5460405160ff9091168152602001610081565b3480156100da575f80fd5b505f54610100900460ff166040519015158152602001610081565b348015610100575f80fd5b5061010961011e565b005b610109610119366004610266565b610128565b6101266101ef565b565b5f54610100900460ff161580801561014657505f54600160ff909116105b1580156101635750303b15801561016157505f5460ff166001145b155b156101805760405162dc149f60e41b815260040160405180910390fd5b5f805460ff1916600117905580156101a1575f805461ff0019166101001790555b600182905580156101eb575f805461ff0019169055604051600181527f7f26b83ff96e1f2b6a682f133852f6798a09c465da95921460cefb38474024989060200160405180910390a15b5050565b5f54610100900460ff16156102165760405162dc149f60e41b815260040160405180910390fd5b5f5460ff90811614610126575f805460ff191660ff9081179091556040519081527f7f26b83ff96e1f2b6a682f133852f6798a09c465da95921460cefb38474024989060200160405180910390a1565b5f60208284031215610276575f80fd5b503591905056fea26469706673582212209168f1bd533a5bda58f77c6dc7b1f260f9aa7053bb397bcb3f0e0484f39b4e2a64736f6c63430008140033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

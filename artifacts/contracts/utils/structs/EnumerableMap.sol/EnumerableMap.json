@@ -1,0 +1,22 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "EnumerableMap",
+  "sourceName": "contracts/utils/structs/EnumerableMap.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "key",
+          "type": "bytes32"
+        }
+      ],
+      "name": "EnumerableMapNonexistentKey",
+      "type": "error"
+    }
+  ],
+  "bytecode": "0x60556032600b8282823980515f1a607314602657634e487b7160e01b5f525f60045260245ffd5b305f52607381538281f3fe730000000000000000000000000000000000000000301460806040525f80fdfea26469706673582212207b4477522841aeca8602e5e14b3e1d54d1e1c1327eec42a43a454ed5ae018fc864736f6c63430008140033",
+  "deployedBytecode": "0x730000000000000000000000000000000000000000301460806040525f80fdfea26469706673582212207b4477522841aeca8602e5e14b3e1d54d1e1c1327eec42a43a454ed5ae018fc864736f6c63430008140033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
